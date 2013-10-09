@@ -27,8 +27,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "BeaconTextView.h"
 
-@interface HPTextViewInternal : UITextView
+@interface HPTextViewInternal : BeaconTextView
 
 @property (nonatomic, strong) NSString *placeholder;
 @property (nonatomic, strong) UIColor *placeholderColor;
